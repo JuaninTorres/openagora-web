@@ -1,0 +1,54 @@
+@import 'vars';
+@import "mixins";
+
+.navbar-oa {
+  background-color: $headerBackGroundColor;
+  color: $headerFontColor;
+  a {
+    color: $headerLinkColor;
+  }
+}
+
+.nav>li>a{
+    color: $headerLinkColor;
+    &:hover,&:focus,&:active{
+      color: $headerLinkHoverColor;
+      background-color: $headerLinkHoverBackGroundColor !important;
+      @include box-shadow(inset 0 0 10px 5px rgba(0,0,0,0.2));
+    }
+}
+
+
+.navbar-fixed-top {
+  min-height: 80px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  border: solid 1px $colorWhite;
+  margin-top: 17px;
+  span {
+    background-color: $colorWhite;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $colorWhite;
+    &:hover {
+      color: $colorBlack;
+    }
+  }
+
+  .navbar-brand {
+    height: 70px;
+  }
+}

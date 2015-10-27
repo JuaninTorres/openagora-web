@@ -1,0 +1,44 @@
+@import "vars";
+
+.alert{
+  border-radius: 3px;
+  a{
+    color: $alertLink;
+    text-decoration:underline;
+  }
+  h4{
+    font-weight:600;
+  }
+  .icon{
+    margin-right:10px;
+  }
+  .close{
+    color: $alertClose;
+    opacity:.2;
+    filter: alpha(opacity=20);
+    &:hover{
+      opacity:.5;
+      filter: alpha(opacity=50);
+    }
+  }
+}
+.alert-success{
+  color: $colorWhite !important;
+  border-color: $alertSuccessBorder !important;
+  background-color: $alertSuccessBackGround !important;
+}
+.alert-danger,.alert-error{
+  color: $colorWhite !important;
+  border-color: $alertErrorBorder !important;
+  background-color: $alertErrorBackGround !important;
+}
+.alert-warning{
+  color: $colorWhite !important;
+  border-color: $alertWarningBorder !important;
+  background-color: $alertWarningBackGround !important;
+}
+.alert-info{
+  color: $colorWhite !important;
+  border-color: $alertInfoBorder !important;
+  background-color: $alertInfoBackGround !important;
+}

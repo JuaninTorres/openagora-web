@@ -1,0 +1,47 @@
+@import "vars";
+
+.blurbs {
+  margin-top: 1em;
+  .blurb {
+    border-radius: 50%;
+    //border: $blurbBorderColor $blurbBorderStyle $blurbBorderWidth;
+    color: $blurbColor;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 1em;
+    i {
+      font-size: 5em;
+    }
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      margin-top: 0.2em;
+      margin-bottom: 1em;
+
+    }
+    a {
+      color: $blurbColor;
+      text-decoration: none;
+      &:hover {
+        i {
+          &.color-orange {
+            color: $colorOrange;
+          }
+          &.color-pink:hover {
+            color: $colorPink;
+          }
+          &.color-purple:hover {
+            color: $colorPurple;
+          }
+          &.color-red:hover {
+            color: $colorRed;
+          }
+          &.color-green:hover {
+            color: $colorGreen;
+          }
+        }
+      }
+    }
+  }
+}

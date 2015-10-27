@@ -1,0 +1,64 @@
+@import "vars";
+
+.section-grey-light {
+  color: $colorGreyDark;
+  background-color: $colorGreyLight;
+}
+
+.section-blue {
+  color: white;
+  background-color: $colorBlue;
+}
+
+.footer-icon {
+  color: $colorGreyDarker;
+}
+
+.text-orange {
+  color: $colorOrange;
+}
+.text-orange-light {
+  color: lighten($colorOrange, 20%);
+}
+.text-pink {
+  color: $colorPink;
+}
+.text-pink-light {
+  color: lighten($colorPink, 10%);
+}
+.text-purple {
+  color: $colorPurple;
+}
+.text-purple-light {
+  color: lighten($colorPurple, 20%);
+}
+.text-red {
+  color: $colorRed;
+}
+.text-red-light {
+  color: lighten($colorRed, 10%);
+}
+.text-green {
+  color: $colorGreen;
+}
+.text-green-light {
+  color: lighten($colorGreen, 20%);
+}
+.text-cyan {
+  color: $colorCyan;
+}
+.text-cyan-light {
+  color: lighten($colorCyan, 10%);
+}
+.text-light-blue {
+  color: $colorLightBlue;
+}
+.text-light-blue-light {
+  color: lighten($colorLightBlue, 20%);
+}
+.text-tiffany-blue {
+  color: $colorTiffanyBlue;
+}
+.text-tiffany-blue-light {
+  color: lighten($colorTiffanyBlue, 10%);
+}

@@ -1,0 +1,46 @@
+@import "vars";
+
+
+body {
+  //padding-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+.description {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
+.agora {
+  color: $colorOrange;
+  font-weight: bold;
+}
+
+.content-page {
+  margin-bottom: 2em;
+  .row {
+    margin-top: 2em;
+  }
+}
+
+.size-1-half {
+  font-size: 1.2em !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 991px;
+  }
+}

@@ -1,0 +1,7 @@
+@import "mixins";
+
+nav, footer, .blurbs {
+  a,i {
+    transition: all 0.3s ;
+  }
+}

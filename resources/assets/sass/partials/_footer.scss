@@ -1,0 +1,27 @@
+@import "vars";
+
+
+footer {
+  color: $colorGrey;
+  background-color: $colorGreyDarker;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  border-top: 3em solid $footerColorBorder;
+  a {
+    color: $colorGrey;
+    display: block;
+    &:hover,&:active,&:focus {
+      text-decoration: none;
+      color: $colorGreyLight;
+    }
+  }
+  .office {
+    padding-left: 2em;
+  }
+  .copyright {
+    text-align: center;
+    margin-top: 2em;
+  }
+}
