@@ -19,7 +19,7 @@
     <script src="{{ asset('components/vendor/respond/dest/respond.min.js') }}"></script>
     <![endif]-->
     <link href="{{ asset('images/favicon.png') }}" rel="shortcut icon" />
-    
+
     {{-- Estos son los iconos cuando se colocan estas URL como accesos directos --}}
 
     <link rel="icon" href="{{ asset('images/icon-32x32.png') }}" sizes="32x32" />
