@@ -1,5 +1,8 @@
 @extends('app')
 
+@section('title')@parent -  Gestión de Talentos y Sucesión @endsection
+@section('description')Detecta y desarrolla tus talentos.@endsection
+
 @section('page_title')
     <h1 class="text-purple"><i class="fa fa-users"></i> Gestión de Talentos y Sucesión</h1>
 @endsection

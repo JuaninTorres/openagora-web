@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('title')@parent -  Nosotros @endsection
+
 @section('page_title')
 @endsection
 

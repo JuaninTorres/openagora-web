@@ -1,5 +1,8 @@
 @extends('app')
 
+@section('title')@parent -  Control de Gestión @endsection
+@section('description')Controle los resultados de su empresa.@endsection
+
 @section('page_title')
     <h1 class="text-red"><i class="fa fa-pie-chart"></i> Control de Gestión</h1>
 @endsection

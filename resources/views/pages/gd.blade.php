@@ -1,5 +1,8 @@
 @extends('app')
 
+@section('title')@parent -  Gestión de Desempeño @endsection
+@section('description')Potencia el desempeño de tu equipo.@endsection
+
 @section('page_title')
     <h1 class="text-orange"><i class="fa fa-user"></i> Gestión de Desempeño</h1>
 @endsection

@@ -1,5 +1,8 @@
 @extends('app')
 
+@section('title')@parent -  Gestión de Capacitación @endsection
+@section('description')Desarrolle las capacidades de su organización.@endsection
+
 @section('page_title')
     <h1 class="text-green"><i class="fa fa-graduation-cap"></i> Gestión de Capacitación</h1>
 @endsection
