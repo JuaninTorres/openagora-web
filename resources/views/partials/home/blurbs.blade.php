@@ -6,26 +6,31 @@
 <div class="blurbs">
     <div class="col-sm-2 col-sm-offset-1">
         @include('partials.blurb', [
+        'route' => route('gd_path'),
         'iconClasses' => 'fa fa-user color-orange',
         'title' => 'Gestión de Desempeño'])
     </div>
     <div class="col-sm-2">
         @include('partials.blurb', [
+        'route' => route('gs_path'),
         'iconClasses' => 'ion ion-ios-search-strong color-pink',
         'title' => 'Gestión de Selección'])
     </div>
     <div class="col-sm-2">
         @include('partials.blurb', [
+        'route' => route('gt_path'),
         'iconClasses' => 'fa fa-users color-purple',
         'title' => 'Gestión de Talentos'])
     </div>
     <div class="col-sm-2">
         @include('partials.blurb', [
+        'route' => route('cg_path'),
         'iconClasses' => 'fa fa-pie-chart color-red',
         'title' => 'Control de Gestión'])
     </div>
     <div class="col-sm-2">
         @include('partials.blurb', [
+        'route' => route('gc_path'),
         'iconClasses' => 'fa fa-graduation-cap color-green',
         'title' => 'Gestión de Capacitación'])
     </div>
