@@ -1,5 +1,5 @@
 <h2>Contáctenos</h2>
-{!! Form::open(['route' => 'contact_path', 'method' => 'POST', 'novalidate']) !!}
+{!! Form::open(['route' => 'contact_path', 'method' => 'POST']) !!}
     <div class="form-group @if($errors->has('first_name')) has-error @endif">
         {!! Form::text('first_name' , null, ['class'=>'form-control', 'required', 'placeholder' => trans('validation.attributes.first_name')]) !!}
     </div>
