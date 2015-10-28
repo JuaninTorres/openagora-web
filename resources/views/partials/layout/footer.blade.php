@@ -47,8 +47,7 @@
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-map-marker fa-stack-1x size-1-half footer-icon"></i>
                     </span>
-                    Av. Libertador General Bernardo O'Higgins #1370
-                    <div class="office">Of. 902 - Santiago - Chile</div>
+                    Av. Libertador General Bernardo O'Higgins #1370 - Of. 902 - Santiago - Chile
                 </a>
             </div>
         </div>
