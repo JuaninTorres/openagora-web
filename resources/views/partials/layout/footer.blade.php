@@ -21,21 +21,21 @@
             </div>
 
             <div class="col-md-8">
-                <a href="tel://+56226968925">
+                <a href="tel:+56226968925">
                     <span class="fa-stack fa-1x">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-phone fa-stack-1x size-1-half footer-icon"></i>
                     </span>
                     +56 2 26968925
                 </a>
-                <a href="tel://+56223024081">
+                <a href="tel:+56223024081">
                     <span class="fa-stack fa-1x">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-phone fa-stack-1x size-1-half footer-icon"></i>
                     </span>
                     +56 2 23024081
                 </a>
-                <a href="tel://+56229790216">
+                <a href="tel:+56229790216">
                     <span class="fa-stack fa-1x">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-phone fa-stack-1x size-1-half footer-icon"></i>
