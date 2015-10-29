@@ -19,8 +19,13 @@ elixir(function(mix) {
             'vendor/bootstrap/dist/js/bootstrap.js',
             'vendor/sweetalert/dist/sweetalert.min.js',
         ], 'public/js/all-vendors.js', 'public/components')
+        .scripts([
+            'ajax-helpers.js',
+            'app.js'
+        ], 'public/js/all-footer.js')
         .version([
             'css/app.css',
-            'js/all-vendors.js'
+            'js/all-vendors.js',
+            'js/all-footer.js'
         ]);
 });

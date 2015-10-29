@@ -22,6 +22,6 @@
         {!! Form::textarea('message' , null, ['class'=>'form-control', 'required', 'placeholder' => trans('validation.attributes.message'), 'rows' => '5']) !!}
     </div>
 <div class="form-group">
-    {!! Form::submit('Enviar', ['class'=> 'btn btn-lg btn-success btn-block']) !!}
+    {!! Form::submit('Enviar', ['class'=> 'btn btn-lg btn-success btn-block', 'data-confirm' => '¿Estás seguro de querer enviar esta información?']) !!}
 </div>
 {!! Form::close() !!}
