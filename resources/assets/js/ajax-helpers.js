@@ -61,6 +61,7 @@
             },
             function(isConfirm){
                 if(isConfirm) {
+                    swal.disableButtons();
                     input.closest('form').submit();
                 }
             }
@@ -87,6 +88,7 @@
         },
         function(isConfirm){
             if(isConfirm) {
+                swal.disableButtons();
                 a.closest('form').submit();
             }
         });
