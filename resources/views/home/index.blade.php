@@ -17,7 +17,7 @@
         <div class="col-md-6">
             @include('partials.home.about')
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 hidden-md hidden-sm hidden-xs">
             <a class="twitter-timeline"  href="https://twitter.com/openagora" data-widget-id="651022530187259904"> @openagora.</a>
         </div>
     </section>
