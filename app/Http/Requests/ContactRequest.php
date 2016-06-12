@@ -7,7 +7,7 @@ use App\Http\Requests\Request;
 class ContactRequest extends Request
 {
     /**
-     * De momento cualquiera esta autorizado para enviar un correo de contacto
+     * De memento cualquiera esta autorizado para enviar un correo de contacto
      *
      * @return bool
      */

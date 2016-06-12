@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')@parent -  Gestión de Selección @endsection
-@section('description')Selecciona a los mejores, en el momento requerido.@endsection
+@section('description')Selecciona a los mejores, en el memento requerido.@endsection
 
 @section('page_title')
     <h1 class="text-pink"><i class="ion ion-ios-search-strong"></i> Gestión de Selección</h1>
@@ -9,7 +9,7 @@
 
 @section('page_subtitle')
     <div class="subtitle">
-        <p>Selecciona a los mejores, en el momento requerido.</p>
+        <p>Selecciona a los mejores, en el memento requerido.</p>
     </div>
 @endsection
 
