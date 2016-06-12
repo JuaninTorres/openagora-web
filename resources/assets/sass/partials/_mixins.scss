@@ -73,10 +73,10 @@
   @include prefixer(transition, $value, webkit);
 }
 
-@mixin ctransition($property: 'all', $duration: 160ms, $timing-funtion: linear) {
+@mixin ctransition($property: 'all', $duration: 160ms, $timing-function: linear) {
     @include prefixer(transition-property, unquote($property));
     @include prefixer(transition-duration, $duration);
-    @include prefixer(transition-timing-function, $timing-funtion);
+    @include prefixer(transition-timing-function, $timing-function);
 }
 
 @mixin bgrgba($c, $o) {
